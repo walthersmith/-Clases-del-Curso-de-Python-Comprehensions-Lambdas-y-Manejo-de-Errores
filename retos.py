@@ -1,22 +1,31 @@
+from math import sqrt
+
 #create a list of numbers ^2
 numbers = [x**2 for x in range(1,101)]
-print(numbers)
+#print(numbers)
 
 #no divisible by 3
 squares = [x  for x in range(1,101) if x %3!=0]
-print(squares)
+#print(squares)
 
 #create with list comprehension, a list with 
 #numbers multiplos of 4, 6 and 9  up to 5 digits
 
 multiples = [x for x in range(1,100000) if x % 4 == 0 and x %6 == 0 and x %9 ==0]
-print(multiples)
+#print(multiples)
 
 #create a dictionary of numbers from 1 to 100
 #with the key as the number and the value as the cube of the number
 
 list_dict ={x:x**3 for x in range(1,101)}
-print(list_dict)
+#print(list_dict)
 
 list_dict_notdiv ={x:x**3 for x in range(1,101) if x % 3 != 0}
-print(list_dict_notdiv)
+#print(list_dict_notdiv)
+
+
+#create a dictionary of numbers from 1 to 1000 with root of the number as the key and the value as the square of the number
+root_dict = {x:sqrt(x) for x in range(1,1001)}
+print(root_dict)
+root_dictv2 = {x:x**0.5 for x in range(1,1001)}
+print(root_dictv2)
