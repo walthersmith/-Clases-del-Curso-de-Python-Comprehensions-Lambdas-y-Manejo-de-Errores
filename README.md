@@ -6,4 +6,10 @@
   |:---:|:---:|:---:|
   |Representa a cada uno delos elementos a poner en la nueva lista| ciclo a aprtir del cual se extraeran elementos de otra lista o cualquier iterable | Condicion opcional para filtrar los elementos del ciclo|
 
+
+ **[Dictionary comprehensions](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)**
+    |keyLvalue|for element in interable|if condition|
+  |:---:|:---:|:---:|
+  |Representa a cada una de las llaves y alores a poner en el nuevo diccionario| ciclo a aprtir del cual se extraeran elementos de otra lista o cualquier iterable | Condicion opcional para filtrar los elementos del ciclo|
+
   
